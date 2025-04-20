@@ -1,0 +1,142 @@
+body { 
+    margin: 0;
+    font-style: normal;
+    font-family: "Montserrat", sans-serif;
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-color: black;
+    color: white;
+}
+
+h1 {
+    font-size: 48px;
+  }
+  
+  h2 {
+    font-size: 32px; 
+  }
+  
+  h3 {
+    font-size: 28px; 
+  }
+  
+  h4 {
+    font-size: 24px; 
+  }
+
+/**************header*************/
+.top-header {
+    position: relative;
+}
+
+.couvFM {
+    top: 0; 
+    left: 0;
+    object-fit: cover;
+    width: 100%; 
+    height: 600px;
+    margin: -15px;
+}
+
+.barre {
+    width: 100%;
+    height: 5px;
+
+}
+.menu {
+    position: absolute; 
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    top: 0; 
+    padding: 20px;
+    gap: 25px;
+    text-decoration: none;
+    color: white;
+}
+
+.nav ul {
+    display: flex;
+    list-style-type: none;
+    font-size: 14px;
+    margin: 0 50px;
+    color: white;
+    text-decoration: none;
+}
+
+.reseau {
+    width: 20px;
+}
+/***********savoir-faire**********/
+.title-section {
+    display: flex;
+    justify-content: center;
+}
+
+.savoir-faire {
+    display: flex;
+    flex-direction: column;
+}
+.cadre-gold {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    text-align: center; 
+    gap: 50px;
+    margin: 50px 0 100px 0;
+}
+
+.pict-gold {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 35%;
+    margin: 10px;
+    border : 5px solid rgb(221, 181, 4);
+    border-radius: 2%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transform: scale(1);
+    cursor: pointer;
+}
+
+.text-gold {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    line-height: 0;
+    
+}
+
+.pict-gold:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+.img-gold{
+    width: 100%;
+    height: 100%;
+}
+/*************footer***********/
+
+.form-container { 
+    display: flex;
+    flex: 2;
+    margin: 50px;
+}
+
+.form-column {
+    flex: 1;
+}
+#map {
+    height: 300px;
+    width: 50%;
+    z-index: 1;
+  }
+  
+  .copyright {
+    display: flex;
+    justify-content: center;
+  }
