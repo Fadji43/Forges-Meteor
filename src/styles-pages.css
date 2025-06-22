@@ -1,7 +1,7 @@
 body { 
     margin: 0;
     font-style: normal;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Major Mono Display";
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat;
@@ -11,18 +11,22 @@ body {
 
 h1 {
     font-size: 48px;
+    font-weight: 100;
   }
   
   h2 {
     font-size: 32px; 
+    font-weight: 100;
   }
   
   h3 {
     font-size: 28px; 
+    font-weight: 100;
   }
   
   h4 {
-    font-size: 24px; 
+    font-size: 24px;
+    font-weight: 100; 
   }
 
 /**************header*************/
@@ -129,9 +133,8 @@ h1 {
     max-height: 50vh;
     border-radius: 10px;
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.8);
-    background-color: white;
-    padding: 30px 30px 80px 30px; 
- 
+    margin: 0 0 50px 0; 
+    background-color: black;
   }
   
   .modal-img {
@@ -143,26 +146,36 @@ h1 {
 
   .close {
     position: absolute;
-    top: -10px;
-    right: 5px;
-    color: black;
+    top: 10px;
+    right: 10px;
+    color: white;
     font-size: 50px;
   }
 
 /*************footer***********/
-
 .form-container { 
     display: flex;
+    flex-direction: row;
     flex: 2;
     margin: 50px;
 }
 
+.logo {
+  width: 20%;
+  height: auto;
+}
+
 .form-column {
     flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
 }
 #map {
     height: 300px;
-    width: 50%;
+    width: 30%;
     z-index: 1;
   }
   
